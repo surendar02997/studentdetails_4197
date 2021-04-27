@@ -1,0 +1,34 @@
+<h2 class="screen-align">Studentdetails</h2>
+<div id="template-iji8" class="row">
+    <div id="template-iz5y" class="cell">
+        <label id="template-ipt6" class="label">Name</label>
+    </div>
+    <div id="template-i4jx" class="cell">
+        <input id="template-iwdf" placeholder="Enter name" required="true" class="input form-control"
+        />
+    </div>
+</div>
+<div id="template-i6gqf" class="row">
+    <div id="template-i3hmd" class="cell">
+        <label id="template-ibjhn" class="label">Email</label>
+    </div>
+    <div id="template-iv4zg" class="cell">
+        <input id="template-i4gvl" placeholder="Enter email" required="true" class="input form-control"
+        />
+    </div>
+</div>
+<div id="template-irsac" class="row">
+    <div id="template-ita2h" class="cell">
+        <label id="template-iw9zt" class="label">Password</label>
+    </div>
+    <div id="template-i4d4v" class="cell">
+        <input id="template-i16og" placeholder="Enter Password" required="true"
+        [(ngModel)]="StudentInfo.Email_Pwd" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+</div>
+<div id="template-ill3j" class="row">
+    <div id="template-irrow" class="cell">
+        <button id="template-itlg6" (click)="GpCreate()" class="button btn btn-primary">create</button>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+{
+  "name": "studentdetails",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
